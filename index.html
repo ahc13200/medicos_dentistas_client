@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/img/logos/AM001.png"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>AGUA DE MARZO</title>
+
+    <!--<link rel="preconnect" href="https://fonts.googleapis.com">-->
+    <!--<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
+    <!--<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap" rel="stylesheet">-->
+
+    <link href="/css/font.css" rel="stylesheet" type="text/css "/>
+    <link href="/css/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/aos.css"/>
+    <link rel="stylesheet" href="/css/skilline.css"/>
+
+    <!-- CSS (Font, Vendor, Icon, Plugins & Style CSS files) -->
+
+    <link rel="stylesheet" href="/css/vendor/icofont.min.css" />
+    <link rel="stylesheet" href="/css/vendor/line-awesome.min.css" />
+    <link rel="stylesheet" href="/css/vendor/simple-line-icons.css" />
+    <link rel="stylesheet" href="/css/plugins/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/css/plugins/magnific-popup.css" />
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+
+    <style> @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap'); </style>
+    <style scoped>
+
+
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-size: 15px !important;
+            font-weight: 400;
+            font-family: "Quicksand", sans-serif !important;
+        }
+
+        p, a, span, li, label, tr, td, a, article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, summary, input, textarea, select {
+            font-family: 'Quicksand', sans-serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin-top: 0px;
+            font-family: "Quicksand", sans-serif;
+        }
+
+    </style>
+</head>
+<body class="dark:bg-slate-900 bg-primary-100 overflow-x-hidden">
+<div id="app"></div>
+<script type="module" src="/src/main.ts"></script>
+<script type="module" src="/js/alpine.min.js"></script>
+<script nomodule src="/js/alpine-ie11.min.js" defer></script>
+<script src="/js/aos.js"></script>
+<script src="/js/init.js"></script>
+
+<script src="/js/vendor/modernizr-3.11.7.min.js"></script>
+<script src="/js/vendor/jquery-3.6.0.min.js"></script>
+<script src="/js/vendor/jquery-migrate-3.3.2.min.js"></script>
+<!-- Plugins JS -->
+<script src="/js/plugins/swiper-bundle.min.js"></script>
+<script src="/js/plugins/popper.min.js"></script>
+<script src="/js/plugins/tippy-bundle.umd.min.js"></script>
+<script src="/js/plugins/jquery.magnific-popup.min.js"></script>
+<script src="/js/plugins/jquery.ajaxchimp.min.js"></script>
+<!-- Activation JS -->
+<script src="/js/main.js"></script>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+        apiKey: "AIzaSyC4k3H5xNUWSKppmLtGihNKlAa_GQkzy0M",
+        authDomain: "aguademarzo-d922c.firebaseapp.com",
+        projectId: "aguademarzo-d922c",
+        storageBucket: "aguademarzo-d922c.appspot.com",
+        messagingSenderId: "1094299413922",
+        appId: "1:1094299413922:web:b64d97c4a6c8d00fba16fb",
+        measurementId: "G-SS84V577V2"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+</script>
+</body>
+</html>

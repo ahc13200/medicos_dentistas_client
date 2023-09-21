@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Shorelines';
+    src: url('/fonts/Shorelines Script Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.font-shorelines{
+    font-family: 'Shorelines'
+}
+
+
+@font-face{
+    font-family: "Nexa Light";
+    src: url('/fonts/nexa-light.otf') format("opentype");
+    font-weight: bold;
+    font-style: normal;
+
+}
+.font-nexa-light{
+    font-family: "Nexa Light"
+}
+
+
+@font-face{
+    font-family: "Nexa Bold";
+    src: url('/fonts/nexa-bold.otf') format("opentype");
+    font-weight: bold;
+    font-style: normal;
+
+}
+.font-nexa-bold{
+    font-family: "Nexa Bold"
+}
+
+
