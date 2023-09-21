@@ -1,13 +1,13 @@
 <script lang="ts" setup>
-  import VMainSection from './components/VMainSection.vue';
-  import VContainer from './components/VContainer.vue';
+    import VMainSection from './components/VMainSection.vue';
+    import VContainer from './components/VContainer.vue';
 </script>
 <template>
-  <div class="">
-    <v-main-section />
+    <div class="">
+        <v-main-section/>
 
-    <v-container />
-  </div>
+        <v-container/>
+    </div>
 </template>
 <style lang="scss" scoped>
 
